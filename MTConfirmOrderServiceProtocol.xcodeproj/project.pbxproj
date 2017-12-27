@@ -40,6 +40,7 @@
 		8D32B3C41FF38509009D97A8 /* MTConfirmOrderServiceProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTConfirmOrderServiceProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D32B3C81FF38509009D97A8 /* MTConfirmOrderServiceProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTConfirmOrderServiceProtocolUITests.m; sourceTree = "<group>"; };
 		8D32B3CA1FF38509009D97A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D32B3D41FF38554009D97A8 /* MTConfirmOrderServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTConfirmOrderServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		8D32B3AE1FF38509009D97A8 /* MTConfirmOrderServiceProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				8D32B3D31FF38534009D97A8 /* MTConfirmOrderServiceProtocol */,
 				8D32B3AF1FF38509009D97A8 /* AppDelegate.h */,
 				8D32B3B01FF38509009D97A8 /* AppDelegate.m */,
 				8D32B3B21FF38509009D97A8 /* ViewController.h */,
@@ -101,6 +103,14 @@
 				8D32B3CA1FF38509009D97A8 /* Info.plist */,
 			);
 			path = MTConfirmOrderServiceProtocolUITests;
+			sourceTree = "<group>";
+		};
+		8D32B3D31FF38534009D97A8 /* MTConfirmOrderServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				8D32B3D41FF38554009D97A8 /* MTConfirmOrderServiceProtocol.h */,
+			);
+			path = MTConfirmOrderServiceProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,7 +368,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75B7BR7JE4;
 				INFOPLIST_FILE = MTConfirmOrderServiceProtocol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Long.MTConfirmOrderServiceProtocol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,7 +383,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75B7BR7JE4;
 				INFOPLIST_FILE = MTConfirmOrderServiceProtocol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Long.MTConfirmOrderServiceProtocol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
